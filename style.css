@@ -1,3 +1,26 @@
+/* Styles for mobile screens */
+@media (max-width: 768px) {
+    /* Example: Set a smaller font size for mobile */
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Styles for tablet screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Adjust font or layout for tablet */
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Styles for desktop screens */
+@media (min-width: 1025px) {
+    /* Example: Larger font or different layout for desktop */
+    body {
+        font-size: 18px;
+    }
+}
 
 .fa {
   padding: 20px;
